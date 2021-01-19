@@ -1,0 +1,56 @@
+:root {
+  --background: #222831;
+  --object: #30475E;
+  --active: #F2A365;
+  --text: #ECECEC;
+}
+body {
+  background-color: var(--background);
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  color: var(--text);
+}
+
+/* Tabs */
+.tab {
+  overflow: hidden;
+  background-color: var(--object); 
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--text);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.tab button:hover {
+  background-color: var(--active);
+  color: var(--object);
+}
+.tab button.active {
+  background-color: var(--background);
+}
+img {
+  max-width: 100%;
+}
+
+/* Main site */
+.content {
+  max-width: 980px;
+  margin: auto;
+}
+.tabcontent {
+  display: none;
+}
+
+/* Tile buttons for small screen */
+@media screen and (max-width: 400px) {
+  .tab button {
+    float: none;
+    width: 100%;
+  }
+}
