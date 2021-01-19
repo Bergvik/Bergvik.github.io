@@ -35,7 +35,7 @@
         Jonas Amundsen<br>
         Norway
       </div>
-      <div id="tools" class="tabcontent">
+      <div id="tool" class="tabcontent">
         <h3>Here are my python tools</h3>
       </div>
     </div>
